@@ -1,5 +1,4 @@
-# Endicott-Student
-## Android Version
+# Endicott-Student-Android
 
 This is the go to app for any Endicott College student. Check in with your class schedule and see what is being served at the Callahan for breakfast, lunch, and dinner!
 
