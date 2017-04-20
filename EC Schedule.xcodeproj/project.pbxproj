@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A58A4FD19D0951400171423 /* DiningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58A4FC19D0951400171423 /* DiningViewController.m */; };
+		0A5C59EA1BB46A6700283CE9 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C59E91BB46A6700283CE9 /* Menu.m */; };
+		0A9014521BA0C0E50043046C /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9014511BA0C0E50043046C /* TabBarController.m */; };
+		0AB180FF1C32EE6E0047F923 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB180FE1C32EE6E0047F923 /* SettingsViewController.m */; };
+		0ACD45CA1BB60B0700DB5784 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD45C91BB60B0700DB5784 /* MenuViewController.m */; };
+		A74B0FFB9AD919227696C54C /* libPods-EC Schedule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEE7D87C474C4BE913AE115 /* libPods-EC Schedule.a */; };
+		C902B3A818FF3B7D00D21C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3A718FF3B7D00D21C50 /* Foundation.framework */; };
+		C902B3AA18FF3B7D00D21C50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3A918FF3B7D00D21C50 /* CoreGraphics.framework */; };
+		C902B3AC18FF3B7D00D21C50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3AB18FF3B7D00D21C50 /* UIKit.framework */; };
+		C902B3B218FF3B7E00D21C50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C902B3B018FF3B7E00D21C50 /* InfoPlist.strings */; };
+		C902B3B418FF3B7E00D21C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C902B3B318FF3B7E00D21C50 /* main.m */; };
+		C902B3B818FF3B7E00D21C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C902B3B718FF3B7E00D21C50 /* AppDelegate.m */; };
+		C902B3BB18FF3B7E00D21C50 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C902B3B918FF3B7E00D21C50 /* Main_iPhone.storyboard */; };
+		C902B3C118FF3B7E00D21C50 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C902B3C018FF3B7E00D21C50 /* ScheduleViewController.m */; };
+		C902B3C318FF3B7E00D21C50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C902B3C218FF3B7E00D21C50 /* Images.xcassets */; };
+		C902B3CA18FF3B7E00D21C50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3C918FF3B7E00D21C50 /* XCTest.framework */; };
+		C902B3CB18FF3B7E00D21C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3A718FF3B7D00D21C50 /* Foundation.framework */; };
+		C902B3CC18FF3B7E00D21C50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B3AB18FF3B7D00D21C50 /* UIKit.framework */; };
+		C902B3D418FF3B7E00D21C50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C902B3D218FF3B7E00D21C50 /* InfoPlist.strings */; };
+		C902B3D618FF3B7E00D21C50 /* EC_ScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C902B3D518FF3B7E00D21C50 /* EC_ScheduleTests.m */; };
+		C9E352F819044EB2005E053B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E352F719044EB2005E053B /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C902B3CD18FF3B7E00D21C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C902B39C18FF3B7D00D21C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C902B3A318FF3B7D00D21C50;
+			remoteInfo = "EC Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2EB4771B9FC6AB006B5219 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0A58A4FB19D0951400171423 /* DiningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningViewController.h; sourceTree = "<group>"; };
+		0A58A4FC19D0951400171423 /* DiningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningViewController.m; sourceTree = "<group>"; };
+		0A5C59E81BB46A6700283CE9 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		0A5C59E91BB46A6700283CE9 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		0A8FB01A19CB8E2200F9D18D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0A9014501BA0C0E50043046C /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		0A9014511BA0C0E50043046C /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		0AB180FD1C32EE6E0047F923 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0AB180FE1C32EE6E0047F923 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0ACD45C81BB60B0700DB5784 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0ACD45C91BB60B0700DB5784 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		8EEE7D87C474C4BE913AE115 /* libPods-EC Schedule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EC Schedule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B733376C941589F8E9288A81 /* Pods-EC Schedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EC Schedule.release.xcconfig"; path = "Pods/Target Support Files/Pods-EC Schedule/Pods-EC Schedule.release.xcconfig"; sourceTree = "<group>"; };
+		C902B3A418FF3B7D00D21C50 /* EC Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EC Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C902B3A718FF3B7D00D21C50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C902B3A918FF3B7D00D21C50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C902B3AB18FF3B7D00D21C50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C902B3AF18FF3B7E00D21C50 /* EC Schedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EC Schedule-Info.plist"; sourceTree = "<group>"; };
+		C902B3B118FF3B7E00D21C50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C902B3B318FF3B7E00D21C50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C902B3B518FF3B7E00D21C50 /* EC Schedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EC Schedule-Prefix.pch"; sourceTree = "<group>"; };
+		C902B3B618FF3B7E00D21C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; wrapsLines = 0; };
+		C902B3B718FF3B7E00D21C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 0; };
+		C902B3BA18FF3B7E00D21C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C902B3BF18FF3B7E00D21C50 /* ScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		C902B3C018FF3B7E00D21C50 /* ScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
+		C902B3C218FF3B7E00D21C50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C902B3C818FF3B7E00D21C50 /* EC ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EC ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C902B3C918FF3B7E00D21C50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C902B3D118FF3B7E00D21C50 /* EC ScheduleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EC ScheduleTests-Info.plist"; sourceTree = "<group>"; };
+		C902B3D318FF3B7E00D21C50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C902B3D518FF3B7E00D21C50 /* EC_ScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EC_ScheduleTests.m; sourceTree = "<group>"; };
+		C9E352F619044EB2005E053B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		C9E352F719044EB2005E053B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		EBF0DEBE1CFF084B5092CB99 /* Pods-EC Schedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EC Schedule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EC Schedule/Pods-EC Schedule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C902B3A118FF3B7D00D21C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3AA18FF3B7D00D21C50 /* CoreGraphics.framework in Frameworks */,
+				C902B3AC18FF3B7D00D21C50 /* UIKit.framework in Frameworks */,
+				C902B3A818FF3B7D00D21C50 /* Foundation.framework in Frameworks */,
+				A74B0FFB9AD919227696C54C /* libPods-EC Schedule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C902B3C518FF3B7E00D21C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3CA18FF3B7E00D21C50 /* XCTest.framework in Frameworks */,
+				C902B3CC18FF3B7E00D21C50 /* UIKit.framework in Frameworks */,
+				C902B3CB18FF3B7E00D21C50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A58A50219D0972D00171423 /* Dining */ = {
+			isa = PBXGroup;
+			children = (
+				0A58A4FB19D0951400171423 /* DiningViewController.h */,
+				0A58A4FC19D0951400171423 /* DiningViewController.m */,
+				0ACD45C81BB60B0700DB5784 /* MenuViewController.h */,
+				0ACD45C91BB60B0700DB5784 /* MenuViewController.m */,
+				0ACD45CB1BB60B3700DB5784 /* Helper Classes */,
+			);
+			name = Dining;
+			sourceTree = "<group>";
+		};
+		0AB180FC1C32EE480047F923 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0AB180FD1C32EE6E0047F923 /* SettingsViewController.h */,
+				0AB180FE1C32EE6E0047F923 /* SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		0ACD45CB1BB60B3700DB5784 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C59E81BB46A6700283CE9 /* Menu.h */,
+				0A5C59E91BB46A6700283CE9 /* Menu.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		75E8143898ED834F68031B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0DEBE1CFF084B5092CB99 /* Pods-EC Schedule.debug.xcconfig */,
+				B733376C941589F8E9288A81 /* Pods-EC Schedule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C902B39B18FF3B7D00D21C50 = {
+			isa = PBXGroup;
+			children = (
+				C902B3AD18FF3B7E00D21C50 /* EC Schedule */,
+				C902B3CF18FF3B7E00D21C50 /* EC ScheduleTests */,
+				C902B3A618FF3B7D00D21C50 /* Frameworks */,
+				C902B3A518FF3B7D00D21C50 /* Products */,
+				75E8143898ED834F68031B07 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C902B3A518FF3B7D00D21C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C902B3A418FF3B7D00D21C50 /* EC Schedule.app */,
+				C902B3C818FF3B7E00D21C50 /* EC ScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C902B3A618FF3B7D00D21C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8FB01A19CB8E2200F9D18D /* MessageUI.framework */,
+				C902B3A718FF3B7D00D21C50 /* Foundation.framework */,
+				C902B3A918FF3B7D00D21C50 /* CoreGraphics.framework */,
+				C902B3AB18FF3B7D00D21C50 /* UIKit.framework */,
+				C902B3C918FF3B7E00D21C50 /* XCTest.framework */,
+				8EEE7D87C474C4BE913AE115 /* libPods-EC Schedule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C902B3AD18FF3B7E00D21C50 /* EC Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				C902B3B618FF3B7E00D21C50 /* AppDelegate.h */,
+				C902B3B718FF3B7E00D21C50 /* AppDelegate.m */,
+				0A2EB4771B9FC6AB006B5219 /* Constants.h */,
+				C902B3B918FF3B7E00D21C50 /* Main_iPhone.storyboard */,
+				0A9014501BA0C0E50043046C /* TabBarController.h */,
+				0A9014511BA0C0E50043046C /* TabBarController.m */,
+				0A58A50219D0972D00171423 /* Dining */,
+				C9A6A11A19006C2A00B464C8 /* Schedule */,
+				0AB180FC1C32EE480047F923 /* Settings */,
+				C902B3C218FF3B7E00D21C50 /* Images.xcassets */,
+				C902B3AE18FF3B7E00D21C50 /* Supporting Files */,
+			);
+			path = "EC Schedule";
+			sourceTree = "<group>";
+		};
+		C902B3AE18FF3B7E00D21C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C902B3AF18FF3B7E00D21C50 /* EC Schedule-Info.plist */,
+				C902B3B018FF3B7E00D21C50 /* InfoPlist.strings */,
+				C902B3B318FF3B7E00D21C50 /* main.m */,
+				C902B3B518FF3B7E00D21C50 /* EC Schedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C902B3CF18FF3B7E00D21C50 /* EC ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C902B3D518FF3B7E00D21C50 /* EC_ScheduleTests.m */,
+				C902B3D018FF3B7E00D21C50 /* Supporting Files */,
+			);
+			path = "EC ScheduleTests";
+			sourceTree = "<group>";
+		};
+		C902B3D018FF3B7E00D21C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C902B3D118FF3B7E00D21C50 /* EC ScheduleTests-Info.plist */,
+				C902B3D218FF3B7E00D21C50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9A6A11A19006C2A00B464C8 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				C9E352F619044EB2005E053B /* LoginViewController.h */,
+				C9E352F719044EB2005E053B /* LoginViewController.m */,
+				C902B3BF18FF3B7E00D21C50 /* ScheduleViewController.h */,
+				C902B3C018FF3B7E00D21C50 /* ScheduleViewController.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C902B3A318FF3B7D00D21C50 /* EC Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C902B3D918FF3B7E00D21C50 /* Build configuration list for PBXNativeTarget "EC Schedule" */;
+			buildPhases = (
+				8DA4C4742A50D390AF7C1502 /* Check Pods Manifest.lock */,
+				C902B3A018FF3B7D00D21C50 /* Sources */,
+				C902B3A118FF3B7D00D21C50 /* Frameworks */,
+				C902B3A218FF3B7D00D21C50 /* Resources */,
+				AA993DC6EB714017DE730E67 /* Copy Pods Resources */,
+				612880E46D32D3BC12E3A697 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EC Schedule";
+			productName = "EC Schedule";
+			productReference = C902B3A418FF3B7D00D21C50 /* EC Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C902B3C718FF3B7E00D21C50 /* EC ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C902B3DC18FF3B7E00D21C50 /* Build configuration list for PBXNativeTarget "EC ScheduleTests" */;
+			buildPhases = (
+				C902B3C418FF3B7E00D21C50 /* Sources */,
+				C902B3C518FF3B7E00D21C50 /* Frameworks */,
+				C902B3C618FF3B7E00D21C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C902B3CE18FF3B7E00D21C50 /* PBXTargetDependency */,
+			);
+			name = "EC ScheduleTests";
+			productName = "EC ScheduleTests";
+			productReference = C902B3C818FF3B7E00D21C50 /* EC ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C902B39C18FF3B7D00D21C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matti Mühlemann";
+				TargetAttributes = {
+					C902B3A318FF3B7D00D21C50 = {
+						DevelopmentTeam = A2GRYGLS5B;
+					};
+					C902B3C718FF3B7E00D21C50 = {
+						TestTargetID = C902B3A318FF3B7D00D21C50;
+					};
+				};
+			};
+			buildConfigurationList = C902B39F18FF3B7D00D21C50 /* Build configuration list for PBXProject "EC Schedule" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C902B39B18FF3B7D00D21C50;
+			productRefGroup = C902B3A518FF3B7D00D21C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C902B3A318FF3B7D00D21C50 /* EC Schedule */,
+				C902B3C718FF3B7E00D21C50 /* EC ScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C902B3A218FF3B7D00D21C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3C318FF3B7E00D21C50 /* Images.xcassets in Resources */,
+				C902B3BB18FF3B7E00D21C50 /* Main_iPhone.storyboard in Resources */,
+				C902B3B218FF3B7E00D21C50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C902B3C618FF3B7E00D21C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3D418FF3B7E00D21C50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		612880E46D32D3BC12E3A697 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EC Schedule/Pods-EC Schedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA4C4742A50D390AF7C1502 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA993DC6EB714017DE730E67 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EC Schedule/Pods-EC Schedule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C902B3A018FF3B7D00D21C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3C118FF3B7E00D21C50 /* ScheduleViewController.m in Sources */,
+				0A5C59EA1BB46A6700283CE9 /* Menu.m in Sources */,
+				C902B3B818FF3B7E00D21C50 /* AppDelegate.m in Sources */,
+				0AB180FF1C32EE6E0047F923 /* SettingsViewController.m in Sources */,
+				0ACD45CA1BB60B0700DB5784 /* MenuViewController.m in Sources */,
+				C9E352F819044EB2005E053B /* LoginViewController.m in Sources */,
+				0A9014521BA0C0E50043046C /* TabBarController.m in Sources */,
+				0A58A4FD19D0951400171423 /* DiningViewController.m in Sources */,
+				C902B3B418FF3B7E00D21C50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C902B3C418FF3B7E00D21C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902B3D618FF3B7E00D21C50 /* EC_ScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C902B3CE18FF3B7E00D21C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C902B3A318FF3B7D00D21C50 /* EC Schedule */;
+			targetProxy = C902B3CD18FF3B7E00D21C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C902B3B018FF3B7E00D21C50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C902B3B118FF3B7E00D21C50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C902B3B918FF3B7E00D21C50 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C902B3BA18FF3B7E00D21C50 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C902B3D218FF3B7E00D21C50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C902B3D318FF3B7E00D21C50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C902B3D718FF3B7E00D21C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C902B3D818FF3B7E00D21C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C902B3DA18FF3B7E00D21C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF0DEBE1CFF084B5092CB99 /* Pods-EC Schedule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = A2GRYGLS5B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EC Schedule/EC Schedule-Prefix.pch";
+				INFOPLIST_FILE = "EC Schedule/EC Schedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.endicott.edu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C902B3DB18FF3B7E00D21C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B733376C941589F8E9288A81 /* Pods-EC Schedule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = A2GRYGLS5B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EC Schedule/EC Schedule-Prefix.pch";
+				INFOPLIST_FILE = "EC Schedule/EC Schedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.endicott.edu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C902B3DD18FF3B7E00D21C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EC Schedule.app/EC Schedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EC Schedule/EC Schedule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EC ScheduleTests/EC ScheduleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrashCode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C902B3DE18FF3B7E00D21C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EC Schedule.app/EC Schedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EC Schedule/EC Schedule-Prefix.pch";
+				INFOPLIST_FILE = "EC ScheduleTests/EC ScheduleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrashCode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C902B39F18FF3B7D00D21C50 /* Build configuration list for PBXProject "EC Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C902B3D718FF3B7E00D21C50 /* Debug */,
+				C902B3D818FF3B7E00D21C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C902B3D918FF3B7E00D21C50 /* Build configuration list for PBXNativeTarget "EC Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C902B3DA18FF3B7E00D21C50 /* Debug */,
+				C902B3DB18FF3B7E00D21C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C902B3DC18FF3B7E00D21C50 /* Build configuration list for PBXNativeTarget "EC ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C902B3DD18FF3B7E00D21C50 /* Debug */,
+				C902B3DE18FF3B7E00D21C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C902B39C18FF3B7D00D21C50 /* Project object */;
+}
