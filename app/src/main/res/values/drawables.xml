@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="tab_dining" type="drawable">@drawable/dining</item>
+    <item name="tab_schedule" type="drawable">@drawable/schedule</item>
+    <item name="tab_settings" type="drawable">@drawable/settings</item>
+
+    <item name="alert_one" type="drawable">@drawable/alert_one</item>
+
+    <item name="icon" type="drawable">@drawable/icon</item>
+</resources>

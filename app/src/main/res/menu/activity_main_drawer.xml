@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dining"
+            android:icon="@drawable/tab_dining"
+            android:title="Dining" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/tab_schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/tab_settings"
+            android:title="Settings" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Endicott</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login">LOGIN</string>
+    <string name="loging_error">LOGIN: Error please try again</string>
+    <string name="username">Student ID or Email</string>
+    <string name="password">Password</string>
+    <string name="noon">NOON</string>
+
+</resources>
