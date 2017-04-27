@@ -202,7 +202,7 @@ public class FragSchedule extends Fragment {
         params.put("signinusername", username);
         params.put("signinpassword", password);
 
-        new NetworkRequest("https://cars.endicott.edu/cgi-bin/public/nolij/iosauth.cgi", params, getContext(), new NetworkRequestListener() {
+        new NetworkRequest("https://cars.endicott.edu/cgi-bin/public/genform/iosauth.cgi", params, getContext(), new NetworkRequestListener() {
 
             @Override
             public void onResponse(String response) {
