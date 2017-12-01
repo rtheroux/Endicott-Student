@@ -210,7 +210,8 @@ public class FragSchedule extends Fragment {
                 if (response.contains("ERROR"))
                 {
                     // Login not successful
-                    promptLogin(inflater, layout, R.string.loging_error);
+                    // TODO: fix this, shouldn't  promptlogin if not on page
+                    //promptLogin(inflater, layout, R.string.loging_error);
                 }
                 else
                 {

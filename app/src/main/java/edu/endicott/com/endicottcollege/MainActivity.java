@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
 
-        setFragment(FragDining.class);
+        setFragment(FragSettings.class);
     }
 
     @Override
@@ -49,8 +49,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_settings:
                 fragmentClass = FragSettings.class;
                 break;
+            case R.id.nav_guide:
+                fragmentClass = FragGuide.class;
+                break;
             default:
-                fragmentClass = FragDining.class;
+                fragmentClass = FragSettings.class;
         }
 
         // Sets the new fragment
