@@ -20,7 +20,6 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 
@@ -31,11 +30,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        JSONArray fullSchedule;
-        JSONObject unformattedProgram;
-        Program currentProgram;
-        boolean networkExists;
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -51,46 +45,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
 
-        programs = new ArrayList<>();
-        guide = new ArrayList<>();
-
-        try {
-            fullSchedule = new JSONArray(loadJSONFromAsset(this));
-
-            for (int i = 0; i < fullSchedule.length(); i++){
-                networkExists = false;
-
-                unformattedProgram = fullSchedule.getJSONObject(i);
-                currentProgram = new Program(
-                        unformattedProgram.getJSONObject("show").getString("name"),
-                        unformattedProgram.getInt("runtime"),
-                        unformattedProgram.getJSONObject("show").getJSONObject("network").getJSONObject("country").getString("timezone"),
-                        unformattedProgram.getJSONObject("show").getJSONObject("network").getString("name"),
-                        unformattedProgram.getString("airtime"),
-                        unformattedProgram.getString("airdate")
-                );
-                programs.add(currentProgram);
-
-                // for each unique network name, create network, add to guide
-                for (int j = 0; j < guide.size(); j++){
-                    if (guide.get(j).getName().equals(currentProgram.getNetwork())){
-                        // if program's name matches network name, add program to network
-                        guide.get(j).addProgram(currentProgram);
-                        networkExists = true;
-                    }
-                }
-
-                //if no network existed with that name, make a new network
-                if (!networkExists){
-                    guide.add(new Network(currentProgram.getNetwork()));
-                    Log.d("new network", currentProgram.getNetwork());
-                }
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        Collections.sort(guide);
+        guide = generateGuide();
     }
 
     @Override
@@ -138,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+    //https://stackoverflow.com/questions/13814503/reading-a-json-file-in-android
     public String loadJSONFromAsset(Context context) {
         String json;
         try {
@@ -161,6 +117,56 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public ArrayList<Network> getGuide(){
+        return guide;
+    }
+
+    private ArrayList<Network> generateGuide(){
+        JSONArray fullSchedule;
+        JSONObject unformattedProgram;
+        Program currentProgram;
+        boolean networkExists;
+
+        programs = new ArrayList<>();
+        guide = new ArrayList<>();
+
+        try {
+            fullSchedule = new JSONArray(loadJSONFromAsset(this));
+
+            for (int i = 0; i < fullSchedule.length(); i++){
+                networkExists = false;
+
+                unformattedProgram = fullSchedule.getJSONObject(i);
+                currentProgram = new Program(
+                        unformattedProgram.getJSONObject("show").getString("name"),
+                        unformattedProgram.getInt("runtime"),
+                        unformattedProgram.getJSONObject("show").getJSONObject("network").getJSONObject("country").getString("timezone"),
+                        unformattedProgram.getJSONObject("show").getJSONObject("network").getString("name"),
+                        unformattedProgram.getString("airtime"),
+                        unformattedProgram.getString("airdate")
+                );
+                programs.add(currentProgram);
+
+                // for each unique network name, create network, add to guide
+                for (int j = 0; j < guide.size(); j++){
+                    if (guide.get(j).getName().equals(currentProgram.getNetwork())){
+                        // if program's name matches network name, add program to network
+                        guide.get(j).addProgram(currentProgram);
+                        networkExists = true;
+                    }
+                }
+
+                //if no network existed with that name, make a new network
+                if (!networkExists){
+                    guide.add(new Network(currentProgram.getNetwork()));
+                    Log.d("new network", currentProgram.getNetwork());
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        Collections.sort(guide);
+
         return guide;
     }
 }
