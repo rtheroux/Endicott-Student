@@ -10,5 +10,6 @@
     <string name="username">Student ID or Email</string>
     <string name="password">Password</string>
     <string name="noon">NOON</string>
+    <string name="guide_title">Guide</string>
 
 </resources>

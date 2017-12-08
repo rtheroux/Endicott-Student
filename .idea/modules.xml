@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://C:\Users\Ross\Documents\Endicott_app\EndicottCollege.iml" filepath="C:\Users\Ross\Documents\Endicott_app\EndicottCollege.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Endicott_app.iml" filepath="$PROJECT_DIR$/Endicott_app.iml" />
+      <module fileurl="file://C:\Users\rosst\Desktop\endicottapp\Endicott_app.iml" filepath="C:\Users\rosst\Desktop\endicottapp\Endicott_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\rosst\Desktop\endicottapp\app\app.iml" filepath="C:\Users\rosst\Desktop\endicottapp\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/endicottapp.iml" filepath="$PROJECT_DIR$/endicottapp.iml" />
     </modules>
   </component>
 </project>

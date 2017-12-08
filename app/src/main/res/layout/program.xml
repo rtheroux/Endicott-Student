@@ -3,11 +3,14 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ExpandableListView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/network_list"
-        android:layout_margin="10dp">
-    </ExpandableListView>
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:id="@+id/show"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_margin="4dp"
+        android:background="#ccc"/>
 
 </LinearLayout>
